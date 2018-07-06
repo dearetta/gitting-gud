@@ -1,0 +1,170 @@
+div {
+	display: block;
+}
+
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: white;
+	border-bottom: 1px solid #EBEBEB;
+	height: 106px;
+	display: block;
+}
+
+#image_logo {
+	height: 44px;
+	width: 120px;
+	margin: 0;
+	position: absolute;
+	top: 20px;
+	left: 25px;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+.searchbox {
+	width: 600px;
+	height: 45px;
+	margin: 25px 0 0 170px;
+	padding-left: 10px;
+	padding-right: 7px;
+	background: white;
+	position: relative;
+	top: 0px;
+	border: 1px solid #dddddd;
+}
+
+input {
+	-webkit-appearance: none;
+	border-radius: 5px;
+	width: 500px;
+	height: 35px;
+	margin: 5px 0 0 0;
+	padding: 0 0 0 5px;
+	border: 0;
+	font-size: 17px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.header img {
+	margin: 0;
+	position: absolute;
+	padding: 5px;
+	height: auto;
+	top: 8px;
+}
+
+#mic_icon {
+	width: 15px;
+	left: 535px;
+	bottom: 12px;
+}
+
+#search_icon {
+	width: 17px;
+	left: 570px;
+}
+
+.header ul {
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #606060;
+	margin: 0;
+	padding: 0;
+}
+
+.leftnav {
+	position: relative;
+	left: 162px;
+	top: 19px;
+}
+
+.leftnav #lnav li {
+	display: inline-block;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 20px;
+}
+
+.header li a {
+	text-decoration: none;
+	text-align: center;
+    color: #606060;
+}
+
+#lnav .active {
+    color: #4285f4;
+    font-weight: bold;
+    border-bottom: 3px solid #4285f4;
+}
+
+#activelink {
+    color: #4285f4;
+}
+
+.header li a:hover {
+	color: #222222;
+}
+
+.leftnav #lnav #settings {
+	margin-left: 115px;
+}
+
+#tools:hover {
+    background-color: #F2F2F2;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px 0 rgba(0, 0, 0, .1);
+}
+
+#tools {
+	padding: 3px;
+}
+
+.accountnav img {
+	left: 1200px;
+	top: 20px;
+	margin: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	display: relative;
+	left: 1185px;
+	top: 42px;
+	width: 20px;
+	height: 20px;
+}
+
+#notif {
+	display: relative;
+	left: 1230px;
+	top: 42px;
+	width: 20px;
+	height: 20px;
+}
+
+#profile {
+	display: relative;
+	left: 1275px;
+	top: 42px;
+	width: 20px;
+	height: 20px;
+}
+
+div .search_result {
+	display: block;
+	border: 1px solid #dddddd;
+}
